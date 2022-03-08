@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+body {
+    background-color: darkgreen;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.note {
+    font-size: .7em;
+    text-align: center;
+    color: white;
+}
+
+.winner {
+    width: 350px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: .8em;
+    margin: 30px auto;
+    background-color: gold;
+    color: darkred;
+}
+
+.dealer,
+.player {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.player {
+    margin-top: 75px;
+}
+
+.card {
+    width: 125px;
+    height: 175px;
+    border-radius: 25px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 175px;
+    font-size: 3em;
+    background-color: whitesmoke;
+    color: darkred;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
